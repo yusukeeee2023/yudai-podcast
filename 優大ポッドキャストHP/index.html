@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+  <title>韓国語の達人</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <!-- ヘッダーを（display:flex;） -->
+    <div class="header-wrapper">
+      <h1><img class="logo-header" src="image/logo.png" alt="韓国語の達人"></h1>
+      <ul class="link-wrapper">
+        <li><a href="#concept" class="text">concept</a></li>
+        <li><a href="" class="text">podcast</a></li>
+        <!-- 優大がgoogleフォームを用意する -->
+        <li><a href="" class="text">feedback</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- 全体の幅を選定 -->
+  <div class="container">
+    <!-- メイン -->
+    <main>
+      <!-- コンセプト -->
+      <div class="concept" id="concept">
+        <h2>CONCEPT</h2>
+        <p>韓国語での日常会話に役立つ単語を厳選し、毎日例文付きで配信しています！</p>
+        <p>ご意見いつでもお待ちしております。</p>
+        <p>お気軽にフィードバック、コメント欄にお寄せください！</p>
+      </div>
+      <!-- 単語検索 -->
+      <form action="#" class="search-form">
+        <label>
+          <input type="text" placeholder="単語を検索">
+        </label>
+        <button type="submit" aria-label="検索"></button>
+      </form>
+      <!-- 日付指定 -->
+      <div class="date-nav">
+        <button class="date-button">◀</button>
+        <div class="date-display">2025/4/5</div>
+        <button class="date-button">▶</button>
+      </div>
+      <!-- テーマを図示 -->
+      <div class="theme-box">
+        <div class="theme-title">テーマ：学校</div>
+        <table class="table-language">
+          <!-- 題名 -->
+          <tr class="table-header-first">
+            <th>日本語</th>
+            <th>韓国語</th>
+            <th>日本語例文</th>
+            <th>韓国語例文</th>
+          </tr>
+          <!-- 明るい -->
+          <tr class="table-header">
+            <td>明るい</td>
+            <td>밝다</td>
+            <td>部屋が明るくて涼しいです</td>
+            <td>방이 밝고 시원해요。</td>
+          </tr>
+          <!--  浅い -->
+          <tr class="table-header">
+            <td>浅い</td>
+            <td>얕다</td>
+            <td>この川は浅くて子供も遊べます</td>
+            <td>이 강은 얕아 아이도 놀 수 있어요。</td>
+          </tr>
+          <!-- 親切だ -->
+          <tr class="table-header">
+            <td>親切だ</td>
+            <td>친절하다</td>
+            <td>彼は親切だし賢いです</td>
+            <td>그는 친절하고 똑똑해요。</td>
+          </tr>
+          <!-- 涼しい -->
+          <tr class="table-header">
+            <td>涼しい</td>
+            <td>시원하다</td>
+            <td>涼しい風が吹いて気持ちいいです</td>
+            <td>시원한 바람이 불어 기분이 좋아요。</td>
+          </tr>
+          <!-- 速い -->
+          <tr class="table-header">
+            <td>速い</td>
+            <td>빠르다</td>
+            <td>彼の反応はいつも速いです</td>
+            <td>그의 반응은 항상 빨라요。</td>
+          </tr>
+          <!-- 賢い -->
+          <tr class="table-header">
+            <td>賢い</td>
+            <td>똑똑하다</td>
+            <td>彼は賢くて親切な友達です</td>
+            <td>그는 똑똑하고 친절한 친구예요。</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </div>
+  <!-- フッター -->
+  <footer>
+    <!-- フッターを横並び（display:flex;） -->
+    <div class="footer-wrappaer">
+      <p>&copy; 2025 kankokugonotatsuzin. All rights reserved.</p>
+      <ul class="link-wrapper">
+      <li class="brand-logo"><a href=""><img src="image/X-logo.png" alt=""></a></li>
+      <li class="brand-logo"><a href=""><img src="image/instagram-logo.png" alt=""></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
